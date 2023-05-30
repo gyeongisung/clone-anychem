@@ -29,6 +29,11 @@ body {
 }
 /* 공통클래스 */
 .inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .wrap {
   width: 100%;
