@@ -10,14 +10,13 @@ window.addEventListener("load", function () {
     // mbNa.classList.toggle("mb-nav-active")
     // mb-nav-active 클래스 적용 여부(true, false)
     let checkActive = mbNav.classList.contains(mbNavActive);
-git
+
     if (checkActive === false) {
       mbNav.classList.add(mbNavActive);
       mbWrap.classList.add(mbWrapActive);
     } else {
       mbNav.classList.remove(mbNavActive);
       mbWrap.classList.remove(mbWrapActive);
-      
     }
     // Reset 하겠다.
     resetSubMenu();
