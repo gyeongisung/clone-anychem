@@ -30,6 +30,7 @@
   position: relative;
 }
 .company-list .company-box > div {
+  position: relative;
   height: 480px;
   padding: 50px;
   border-radius: 27px;
@@ -43,6 +44,8 @@
   font-weight: 400;
 }
 .company-list .company-box > div > p {
+  position: relative;
+  z-index: 9;
   font-size: 27px;
   line-height: 1.5;
   font-weight: 700;
@@ -154,6 +157,10 @@
   }
   .company-qa a {
     background: #fff !important;
-    color: #0072ff !important;
+    color: #0075ff !important;
+  }
+  .company-about a {
+    background: #000 !important;
+    color: #fff !important;
   }
 }/*# sourceMappingURL=company.css.map */
